@@ -1,5 +1,7 @@
 package discordwebhook
 
+import "time"
+
 type Message struct {
 	Username        *string          `json:"username,omitempty"`
 	AvatarUrl       *string          `json:"avatar_url,omitempty"`
