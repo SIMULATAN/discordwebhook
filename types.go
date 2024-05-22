@@ -17,6 +17,7 @@ type Embed struct {
 	Fields      *[]Field   `json:"fields,omitempty"`
 	Thumbnail   *Thumbnail `json:"thumbnail,omitempty"`
 	Image       *Image     `json:"image,omitempty"`
+	Timestamp   *time.Time `json:"timestamp,omitempty"`
 	Footer      *Footer    `json:"footer,omitempty"`
 }
 
